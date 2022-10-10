@@ -43,6 +43,7 @@ int main(void) {
             satisfied++;
         }
     }
+    printf("satisfied = %d\n", satisfied);
     double ratio = (double)satisfied / n;
     double error = ratio - 2/M_PI;
 
